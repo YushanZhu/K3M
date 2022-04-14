@@ -18,7 +18,7 @@
 
 
 # 环境要求以及如何运行我们的代码
-## 注意：该项目环境配置较为复杂，运行数据处理部分和预训练部分的代码需要配置不同的环境。两部分我们将分别介绍，请严格按以下命令逐步配置环境并运行代码。
+### 注意：该项目环境配置较为复杂，运行数据处理部分和预训练部分的代码需要配置不同的环境。两部分我们将分别介绍，请严格按以下命令逐步配置环境并运行代码。
 
 
 ## Part 1: 数据准备部分（要求 cuda10.0-10.2 torch 1.4.0）
@@ -50,10 +50,12 @@ pip install torchvision==0.5.0
 pip install cython
 pip install opencv-python
 
+git clone https://github.com/cocodataset/cocoapi.git
 cd cocoapi/PythonAPI
 make
 cd ../..
 
+git clone https://github.com/airsplay/py-bottom-up-attention.git
 cd py-bottom-up-attention
 sudo python setup.py build develop
 cd ..

@@ -18,7 +18,7 @@ Modality-missing and modality-noise are two pervasive problems of multi-modal pr
 
 
 # Environment requirements and how to run our code
-## Note: The environment configuration for this project is complex and different environments are required to run the code for the data processing part and the pre-training part. We will introduce the two parts separately. Please strictly configure the environment and run the code step by step according to the following commands.
+### Note: The environment configuration for this project is complex and different environments are required to run the code for the data processing part and the pre-training part. We will introduce the two parts separately. Please strictly configure the environment and run the code step by step according to the following commands.
 
 
 ## Part1: Data Processing (require cuda10.0-10.2 and torch 1.4.0)
@@ -47,10 +47,12 @@ pip install torchvision==0.5.0
 pip install cython
 pip install opencv-python
 
+git clone https://github.com/cocodataset/cocoapi.git
 cd cocoapi/PythonAPI
 make
 cd ../..
 
+git clone https://github.com/airsplay/py-bottom-up-attention.git
 cd py-bottom-up-attention
 sudo python setup.py build develop
 cd ..
