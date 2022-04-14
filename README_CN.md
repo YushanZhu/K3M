@@ -30,7 +30,7 @@ cd K3M
 ```
 **Step1** 处理原始数据，下载图片（运行以下命令将在 data文件夹下生成两个文件：id_title_pvs_cls.txt0 和 id_title_pvs_cls.txt1， 下载的商品图片保存在 data/image 文件夹下）
 ```
-pythton 0_deal_raw_data_segment.py
+python 0_deal_raw_data_segment.py
 ```
 
 **Step2** 生对应json文件（运行以下命令将在 data/image_lmdb_json 文件夹下生成文件 df_train.csv和df_val.csv，以及相应json文件）
