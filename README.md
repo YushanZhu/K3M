@@ -1,4 +1,4 @@
-[**中文**](https://github.com/zjukr/KGPretrain/blob/main/K3M/README_CN.md) | [**English**](https://github.com/zjukr/KGPretrain/blob/main/K3M/)
+[**中文**](https://github.com/YushanZhu/K3M/blob/main/README_CN.md) | [**English**](https://github.com/YushanZhu/K3M)
 
 <p align="center">
     <a href="https://github.com/zjunlp/openue"> <img src="https://raw.githubusercontent.com/zjunlp/openue/master/docs/images/logo_zju_klab.png" width="400"/></a>
