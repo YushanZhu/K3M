@@ -163,7 +163,7 @@ def get_predictor():
     cfg.MODEL.ROI_HEADS.NMS_THRESH_TEST = 0.6
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.2
     # VG Weight
-    cfg.MODEL.WEIGHTS = "./py-bottom-up-attention/demo/model/faster_rcnn_from_caffe.pkl"
+    cfg.MODEL.WEIGHTS = "./faster-rcnn-pkl/faster_rcnn_from_caffe.pkl"
     predictor = DefaultPredictor(cfg)
     print("predictor: ",predictor)
 

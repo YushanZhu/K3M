@@ -37,7 +37,7 @@ pythton 0_deal_raw_data_segment.py
 python 1_generate_json_ali.py
 ```
 
-**Step3** Extracting image features. (Run the following commands to install the image feature extraction tool [detectron2](https://github.com/facebookresearch/detectron2).)
+**Step3** Extracting image features. (Run the following commands to install the image feature extraction tool [py-bottom-up-attention](https://github.com/airsplay/py-bottom-up-attention).)
 ```
 pip install pycocotools
 pip install jsonlines
@@ -56,6 +56,11 @@ git clone https://github.com/airsplay/py-bottom-up-attention.git
 cd py-bottom-up-attention
 sudo python setup.py build develop
 cd ..
+```
+
+Download the pre-trained bottom-up-attention model [faster_rcnn_from_caffe.pkl](http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl) and put it in the "fast-rcnn-pkl" folder.
+```
+http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl
 ```
 
 Extract image features and store them in TSV files. (Running the following command will generate two files in the "data/image_features" folder: "train.tsv.0" and "dev.tsv.0".)

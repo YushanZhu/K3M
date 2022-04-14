@@ -1,0 +1,1 @@
+Download [faster_rcnn_from_caffe.pkl](http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe_attr_original.pkl) and put it in this folder.

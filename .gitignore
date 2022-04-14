@@ -129,7 +129,7 @@ dmypy.json
 /save/
 /bert-base-chinese/pytorch_model.bin
 /log/
-
+/faster-rcnn-pkl/faster_rcnn_from_caffe.pkl
 
 
 

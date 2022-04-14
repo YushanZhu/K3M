@@ -39,8 +39,7 @@ python 1_generate_json_ali.py
 ```
 
 **Step3** 抽取图片特征
-需先安装图像特征抽取工具[detectron2](https://github.com/facebookresearch/detectron2)
-
+需先安装图像特征抽取工具[py-bottom-up-attention](https://github.com/airsplay/py-bottom-up-attention)
 ```
 pip install pycocotools
 pip install jsonlines
@@ -59,6 +58,11 @@ git clone https://github.com/airsplay/py-bottom-up-attention.git
 cd py-bottom-up-attention
 sudo python setup.py build develop
 cd ..
+```
+
+下载预训练的bottom-up-attention模型 [faster_rcnn_from_caffe.pkl](http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl) 并放到 faster-rcnn-pkl 文件夹下.
+```
+http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl
 ```
 
 抽取图片特征并存入tsv文件（运行以下命令将在 data/image_features 文件夹下生成两个文件：train.tsv.0和 dev.tsv.0）
