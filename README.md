@@ -115,7 +115,12 @@ pip install pycocotools
 pip uninstall tensorboard
 ```
 
-**Step4** Download the pre-training language model [bert-base-chinese](https://huggingface.co/bert-base-chinese/tree/main) to the project root directory.
+**Step4** Download the pre-trained weight [pytorch_model.bin](https://huggingface.co/bert-base-chinese/blob/main/pytorch_model.bin) of language model [bert-base-chinese](https://huggingface.co/bert-base-chinese/tree/main) to the "bert-base-chinese" folder.
+```
+cd bert-base-chinese
+wget https://huggingface.co/bert-base-chinese/blob/main/pytorch_model.bin
+cd ..
+```
 
 **Step5** Run the pre-training code.
 ```
