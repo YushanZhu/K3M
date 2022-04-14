@@ -62,7 +62,9 @@ cd ..
 
 下载预训练的bottom-up-attention模型 [faster_rcnn_from_caffe.pkl](http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl) 并放到 faster-rcnn-pkl 文件夹下.
 ```
-http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl
+cd fast-rcnn-pkl
+wget http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl
+cd ..
 ```
 
 抽取图片特征并存入tsv文件（运行以下命令将在 data/image_features 文件夹下生成两个文件：train.tsv.0和 dev.tsv.0）

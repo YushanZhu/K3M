@@ -60,7 +60,9 @@ cd ..
 
 Download the pre-trained bottom-up-attention model [faster_rcnn_from_caffe.pkl](http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl) and put it in the "fast-rcnn-pkl" folder.
 ```
-http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl
+cd fast-rcnn-pkl
+wget http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl
+cd ..
 ```
 
 Extract image features and store them in TSV files. (Running the following command will generate two files in the "data/image_features" folder: "train.tsv.0" and "dev.tsv.0".)
