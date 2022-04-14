@@ -111,7 +111,10 @@ pip install pycocotools
 pip uninstall tensorboard
 ```
 
-**Step3** 运行预训练代码
+**Step4** 下载预训练语言模型 [bert-base-chinese](https://huggingface.co/bert-base-chinese/tree/main) 到项目根目录下。
+
+
+**Step5** 运行预训练代码
 ```
 python train_concap_struc.py
 ```

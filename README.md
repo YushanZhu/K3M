@@ -108,7 +108,9 @@ pip install pycocotools
 pip uninstall tensorboard
 ```
 
-**Step3** Run the pre-training code.
+**Step4** Download the pre-training language model [bert-base-chinese](https://huggingface.co/bert-base-chinese/tree/main) to the project root directory.
+
+**Step5** Run the pre-training code.
 ```
 python train_concap_struc.py
 ```
