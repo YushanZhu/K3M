@@ -132,11 +132,11 @@ Our pre-trained [K3M model](https://github.com/zjukr/KGPretrain/blob/main/K3M/) 
 # Results
 Results of our pre-training model on 3 downstream tasks (item classification, product alignment, and multi-modal Q&A)
 - Item Classification
-<div align=center><img src="./pics/result_1.png" style="zoom:80%;" /></div>
+<div align=left><img src="./pics/result_1.png" width=80% /></div>
 - Product Alignment 
-<div align=center><img src="./pics/result_2.png" style="zoom:80%;" /></div>
+<div align=left><img src="./pics/result_2.png" width=80% /></div>
 - Multi-modal Q&A
-<div align=center><img src="./pics/result_3.png" style="zoom:80%;" /></div>
+<div align=left><img src="./pics/result_3.png" width=80% /></div>
 Please refer to the paper for more detailed results.
 
 
