@@ -29,7 +29,7 @@ cd K3M
 ```
 **Step1** Process the raw data and download the product images. (Running the following command will generate two files in the "data" folder: "id_title_pvs_cls.txt0" and "id_title_pvs_cls.txt1", the downloaded product images will be saved in the "data/image" folder.)
 ```
-pythton 0_deal_raw_data_segment.py
+python 0_deal_raw_data_segment.py
 ```
 
 **Step2** Generate the corresponding JSON file. (Running the following command will generate two files "df_train.csv" and "df_val.csv" and corresponding JSON files in the "data/image_lmdb_json" folder.)
