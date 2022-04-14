@@ -60,7 +60,7 @@ cd ..
 
 Download the pre-trained bottom-up-attention model [faster_rcnn_from_caffe.pkl](http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl) and put it in the "fast-rcnn-pkl" folder.
 ```
-cd fast-rcnn-pkl
+cd faster-rcnn-pkl
 wget http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe.pkl
 cd ..
 ```
