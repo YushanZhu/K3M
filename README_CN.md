@@ -97,11 +97,11 @@ pip install torch==1.3.0
 
 **Step2** 安装 libpcap-1.10.0
 ```
-cd libpcap-1.10.0 
 sudo apt-get update
 sudo apt-get install m4
 sudo apt-get install flex
 sudo apt-get install bison
+cd libpcap-1.10.0 
 ./configure
 make
 sudo make install
