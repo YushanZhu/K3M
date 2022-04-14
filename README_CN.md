@@ -117,8 +117,12 @@ pip install pycocotools
 pip uninstall tensorboard
 ```
 
-**Step4** 下载预训练语言模型 [bert-base-chinese](https://huggingface.co/bert-base-chinese/tree/main) 到项目根目录下。
-
+**Step4** 下载预训练语言模型 [bert-base-chinese](https://huggingface.co/bert-base-chinese/tree/main) 的参数[pytorch_model.bin](https://huggingface.co/bert-base-chinese/blob/main/pytorch_model.bin) 到 bert-base-chinese 文件夹下。
+```
+cd bert-base-chinese
+wget https://huggingface.co/bert-base-chinese/blob/main/pytorch_model.bin
+cd ..
+```
 
 **Step5** 运行预训练代码
 ```
