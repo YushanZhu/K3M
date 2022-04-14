@@ -122,7 +122,6 @@ pip uninstall tensorboard
 python train_concap_struc.py
 ```
 
-
 # Pre-trained model download
 
 You can also download our pre-trained project model through the following link:
@@ -133,11 +132,11 @@ Our pre-trained [K3M model](https://github.com/zjukr/KGPretrain/blob/main/K3M/) 
 # Results
 Results of our pre-training model on 3 downstream tasks (item classification, product alignment, and multi-modal Q&A)
 - Item Classification
-![result1](./pics/result_1.png)
+<div align=center><img src="./pics/result_1.png" style="zoom:80%;" /></div>
 - Product Alignment 
-![result2](./pics/result_2.png)
+<div align=center><img src="./pics/result_2.png" style="zoom:80%;" /></div>
 - Multi-modal Q&A
-![result3](./pics/result_3.png)
+<div align=center><img src="./pics/result_3.png" style="zoom:80%;" /></div>
 Please refer to the paper for more detailed results.
 
 

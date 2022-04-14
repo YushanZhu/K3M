@@ -135,11 +135,11 @@ python train_concap_struc.py
 # 结果
 我们的预训练模型在3个下游任务（商品分类，产品对齐，多模态问答）上的结果
 - 商品分类
-![result1](./pics/result_1.png)
+<div align=center><img src="./pics/result_1.png" style="zoom:80%;" /></div>
 - 产品对齐 
-![result2](./pics/result_2.png)
+<div align=center><img src="./pics/result_2.png" style="zoom:80%;" /></div>
 - 多模态问答
-![result3](./pics/result_3.png)
+<div align=center><img src="./pics/result_3.png" style="zoom:80%;" /></div>
 
 更多详细结果请参考论文。
 
