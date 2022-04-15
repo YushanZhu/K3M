@@ -1,6 +1,6 @@
 # K3M: A Model of Knowledge Perceived Multi-modal Pretraining in E-commerce
 
-This repository is the official implementation of our multi-modal pretrain model **K3M**, which is model proposed in a paper: **[Knowledge Perceived Multi-modal Pretraining in E-commerce](https://dl.acm.org/doi/pdf/10.1145/3474085.3475648)**, accepted by **ACM MM 2021** main conference. The project is based on an open source framework for multi-modal pretraining [VilBERT](https://github.com/facebookresearch/vilbert-multi-task).
+This repository is the official implementation of our multi-modal pretrain model **K3M**, which is model proposed in a paper: **[Knowledge Perceived Multi-modal Pretraining in E-commerce](https://dl.acm.org/doi/pdf/10.1145/3474085.3475648)**, accepted by **ACM MM 2021** main conference. This project is based on an open source framework for multi-modal pretraining [VilBERT](https://github.com/facebookresearch/vilbert-multi-task).
 
 **(Due to the data access problem of Alibaba Group, we cannot open all the data used in paper. In the "data" folder, we release a small data sample for training K3M.)**
 
@@ -115,6 +115,9 @@ pip uninstall tensorboard
 python train_concap_struc.py
 ```
 
+# References
+Parts of our codes based on and thanks for:
+- [facebookresearch/vilbert-multi-task](https://github.com/facebookresearch/vilbert-multi-task)
 
 # Papers for the Project & How to Cite
 
