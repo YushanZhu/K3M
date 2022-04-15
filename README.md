@@ -1,9 +1,3 @@
-[**中文**](https://github.com/YushanZhu/K3M/blob/main/README_CN.md) | [**English**](https://github.com/YushanZhu/K3M)
-
-<p align="center">
-    <a href="https://github.com/zjunlp/openue"> <img src="https://raw.githubusercontent.com/zjunlp/openue/master/docs/images/logo_zju_klab.png" width="400"/></a>
-</p>
-
 # K3M: A Model of Knowledge Perceived Multi-modal Pretraining in E-commerce
 
 This repository is the official implementation of our multi-modal pretrain model **K3M**, which is model proposed in a paper: **[Knowledge Perceived Multi-modal Pretraining in E-commerce](https://dl.acm.org/doi/pdf/10.1145/3474085.3475648)**, accepted by **ACM MM 2021** main conference. The project is based on an open source framework for multi-modal pretraining [VilBERT](https://github.com/facebookresearch/vilbert-multi-task).
