@@ -2,8 +2,7 @@
 
 This repository is the official implementation of our multi-modal pretrain model **K3M**, which is model proposed in a paper: **[Knowledge Perceived Multi-modal Pretraining in E-commerce](https://dl.acm.org/doi/pdf/10.1145/3474085.3475648)**, accepted by **ACM MM 2021** main conference. The project is based on an open source framework for multi-modal pretraining [VilBERT](https://github.com/facebookresearch/vilbert-multi-task).
 
-# Contributor
-Yushan Zhu, Huaixiao Tou, Wen Zhang, Ganqiang Ye, Hui Chen, Ningyu Zhang, Huajun Chen 
+**(Due to the data access problem of Alibaba Group, we cannot open all the data used in paper. In the "data" folder, we release a small data sample for training K3M.)**
 
 # Brief Introduction
 Modality-missing and modality-noise are two pervasive problems of multi-modal product data in real E-commerce scenarios. K3M corrects the noise and supplements the missing of image and text modalities by introducing knowledge modality in multi-modal pretraining. K3M learns the multi-modal information of products through three steps :(1) encode the independent information of each mode, corresponding to the modal-coding layer; (2) model the interaction between modes, corresponding to the modal-interaction layer; (3) optimize the model through the supervision information of each mode, corresponding to the modal-task layer.
