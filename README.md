@@ -122,23 +122,6 @@ pip uninstall tensorboard
 python train_concap_struc.py
 ```
 
-# Pre-trained model download
-
-You can also download our pre-trained project model through the following link:
- 
-Our pre-trained [K3M model](https://github.com/zjukr/KGPretrain/blob/main/K3M/) pre-trained on Alibaba's 40 million products will be released soon.
-
-
-# Results
-Results of our pre-training model on 3 downstream tasks (item classification, product alignment, and multi-modal Q&A)
-- Item Classification
-<div align=left><img src="./pics/result_1.png" width=80% /></div>
-- Product Alignment 
-<div align=left><img src="./pics/result_2.png" width=80% /></div>
-- Multi-modal Q&A
-<div align=left><img src="./pics/result_3.png" width=80% /></div>
-Please refer to the paper for more detailed results.
-
 
 # Papers for the Project & How to Cite
 
